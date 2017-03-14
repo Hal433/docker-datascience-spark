@@ -3,7 +3,7 @@
 # FIXME: Should link hive-site.xml from Hive container, instead of copying it.
 # FIXME: Reduce size of container.
 
-FROM bwv988/hadoop-base
+FROM hal433/hadoop-base
 
 # Install Spark.
 ENV SPARK_VERSION 2.0.2
